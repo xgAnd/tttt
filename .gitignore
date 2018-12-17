@@ -11,3 +11,7 @@ local.properties
 node_modules/
 npm-debug.log
 yarn-error.log
+android/app/gradlew
+android/app/gradlew.bat
+android/app/gradle/wrapper/gradle-wrapper.jar
+gradle-wrapper.properties
