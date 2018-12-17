@@ -96,7 +96,7 @@ def enableProguardInReleaseBuilds = false
 android {
     signingConfigs {
         res {
-            keyAlias 'cs'
+            keyAlias 'jenkins'
             keyPassword '111111'
             storeFile file('/Users/fly/Desktop/work/csjenkins')
             storePassword '111111'
