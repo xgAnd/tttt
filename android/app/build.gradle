@@ -102,12 +102,12 @@ android {
             storePassword '111111'
         }
     }
-    compileSdkVersion rootProject.ext.compileSdkVersion
-    buildToolsVersion rootProject.ext.buildToolsVersion
+    compileSdkVersion 27
+    buildToolsVersion "27.0.0"
     defaultConfig {
         applicationId "com.testforjenkins"
-        minSdkVersion rootProject.ext.minSdkVersion
-        targetSdkVersion rootProject.ext.targetSdkVersion
+        minSdkVersion 16
+        targetSdkVersion 24
         versionCode 1
         versionName "1.0"
         ndk {
@@ -146,7 +146,7 @@ android {
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-    implementation "com.android.support:appcompat-v7:${rootProject.ext.supportLibVersion}"
+    compile 'com.android.support:appcompat-v7:26.0.0'
     implementation 'com.facebook.react:react-native:+'
     // From node_modules
 }
